@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Похожие товары</title>
+  <link rel="stylesheet" href="../scss/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    /* --- Navbar Panel --- */
+
+    .navbar-brand {
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 140%;
+      letter-spacing: 0.4px;
+      color: #000 !important;
+    }
+
+    .nav-link {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 0.1px;
+      text-align: center;
+      color: #000 !important;
+    }
+
+    .nav-link:hover {
+      color: #FFC000 !important;
+    }
+
+    .btn-register {
+      border-radius: 4px;
+      padding-top: 4px;
+      padding-right: 8px;
+      padding-bottom: 4px;
+      padding-left: 8px;
+      background-color: #FFC000;
+      border: none;
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      letter-spacing: 0.44px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    /* --- Footer Panel --- */
+    footer {
+      padding: 50px 0;
+      background-color: #fff;
+      border-top: 1px solid #eee;
+      /* py-5 bg-white border-top border-light */
+    }
+
+    .footer-heading {
+      font-family: Montserrat;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+
+    .footer-links {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 160%;
+      letter-spacing: 0.25px;
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: #FFC000;
+      text-decoration: underline;
+    }
+
+    .logo-container {
+      margin-top: 15px;
+    }
+
+    .logo-container img {
+      max-width: 96px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Language selector section -->
+  <div class="bg-dark">
+    <div class="container">
+      <div class="bg-dark text-white py-1 px-3 d-flex">
+        <span>RU</span>
+        <span class="mx-1">|</span>
+        <span>UZB</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Navbar Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">MILANDI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./o_nas.html">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./categories.html">Категории</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sotrud.html">Сотрудничество</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./men_filter.html">Мужская одежда</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./poxoj.html">Похожие товары</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./oform.html">Оформление</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./oplata.html">Оплата</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-secondary me-2">Войти</button>
+            <button class="btn btn-register">Зарегистрироваться</button>
+            <a href="#" class="ms-3">
+              <img src="../images/cart_logo.svg" alt="cart_logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Main Section -->
+  <main class="bg-body-secondary" style="height: 1000px;"></main>
+
+
+  <!-- Footer Section -->
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row">
+        <!-- About Column -->
+        <div class="col-md-3 mb-4">
+          <h5 class="footer-heading">ПРО IMPERIA</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget pretium aenean dignissim sit cursus dictumst
+            adipiscing nunc.</p>
+          <div class="logo-container">
+            <img
+              src="../images/brand_logo.svg" alt="IMPERIA Logo" class="img-fluid">
+          </div>
+        </div>
+
+        <!-- Contacts Column -->
+        <div class="col-md-3 mb-4">
+          <h5 class="footer-heading">КОНТАКТЫ</h5>
+          <ul class="footer-links">
+            <li>+998 90 958 78 87</li>
+            <li><a href="mailto:support@fonon.uz">support@fonon.uz</a></li>
+          </ul>
+
+          <h5 class="footer-heading mt-4">РАБОЧЕЕ ВРЕМЯ</h5>
+          <ul class="footer-links">
+            <li>По будням 9:00 to 18:00</li>
+            <li>В выходные 11:00 to 18:00</li>
+          </ul>
+        </div>
+
+        <!-- Menu Column -->
+        <div class="col-md-3 mb-4">
+          <h5 class="footer-heading">МЕНЮ</h5>
+          <ul class="footer-links">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Категории</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories Column -->
+        <div class="col-md-3 mb-4">
+          <h5 class="footer-heading">КАТЕГОРИИ</h5>
+          <ul class="footer-links">
+            <li><a href="#">Женская одежда</a></li>
+            <li><a href="#">Мужская одежда</a></li>
+            <li><a href="#">Детская одежда</a></li>
+            <li><a href="#">Обувь</a></li>
+            <li><a href="#">Сумки</a></li>
+            <li><a href="#">Аксессуары</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
